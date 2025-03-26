@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Vozduh</title>
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<header class="header">
+	<div class="top-info">
+	<div class="container">
+		<div class="top-info__inner">
+			<span class="top-info__icon"><i class="far fa-clock"></i></span>
+			<span class="top-info__item">Прием заказов 24/7 без выходных.</span>
+			<span class="top-info__item">Заказы обрабатываются с 09:00 до 19:00.</span>
+			<span class="top-info__item">Отправка товара в день заказа, если заказ был оформлен до 19:00.</span>
+		</div>
+	</div>
+</div>
+	<div class="top-bar d-none d-md-block">
+	<div class="container">
+		<div class="top-bar__inner">
+			<div class="top-bar__element">
+				<a href="#" class="top-bar__item" data-toggle="fancybox" data-target=".modal-help">
+					<i class="far fa-life-ring top-bar__item-icon"></i>
+					<span class="top-bar__item-text">Помощь</span>
+				</a>
+			</div>
+
+			<div class="top-bar__element">
+				<a href="#" class="top-bar__item" data-toggle="fancybox" data-target=".modal-order-info">
+					<i class="fas fa-box-open top-bar__item-icon"></i>
+					<span class="top-bar__item-text">Что с моим заказом?</span>
+				</a>
+			</div>
+
+			<div class="top-bar__element">
+				<a href="reviews.html" class="top-bar__item">
+					<i class="fas fa-star top-bar__item-icon"></i>
+					<span class="top-bar__item-text">Отзывы о магазине</span>
+				</a>
+			</div>
+
+			<div class="top-bar__element">
+				<a href="mailto:shopsupport@mail.com" class="top-bar__item">
+					<i class="fas fa-envelope top-bar__item-icon"></i>
+					<span class="top-bar__item-text">shopsupport@mail.com</span>
+				</a>
+			</div>
+
+			<div class="w-100 d-lg-none"></div>
+
+			<div class="top-bar__element">
+				<span class="top-bar__item">
+					<i class="fas fa-map-marker-alt top-bar__item-icon"></i>
+					<span class="top-bar__item-text">Кооперативная ул., 19<br>Москва, Россия</span>
+				</span>
+			</div>
+
+			<div class="top-bar__element top-bar__element--work">
+				<span class="top-bar__item">
+					<span class="top-bar__item-text">
+						Пн - Пт <b>9:00-18:00</b><br>
+						Сб - Вс <b>9:00-17:00</b>
+					</span>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="top-header d-none d-lg-block">
+	<div class="container">
+		<div class="top-header__inner">
+			<div class="top-header__logo logo">
+				<a href="/" class="top-header__logo-link logo__link">Logo</a>
+			</div>
+
+			<div class="top-header__search-form search-form">
+				<form action="#" class="search-form__form">
+					<div class="form-group search-form__form-group">
+						<input type="text" class="form-control form-control-lg search-form__form-control" placeholder="Поиск">
+					</div>
+					<button type="submit" class="btn btn-lg search-form__btn"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+
+			<div class="top-header__phone">
+				<span class="top-header__phone-notice">Бесплатный номер по России</span>
+				<a href="#" class="top-header__phone-link">
+					<i class="fas fa-phone-alt top-header__phone-link-icon"></i>
+					<span class="top-header__phone-link-text">+8 (880) 888-88-88</span>
+				</a>
+			</div>
+
+			<div class="top-header__callback">
+				<a href="#" class="btn btn-lg btn-ring btn-secondary top-header__callback-btn" data-toggle="fancybox" data-target=".modal-callback">Перезвоните мне</a>
+			</div>
+
+			<div class="top-header__wishlist">
+				<a href="#" class="top-header__wishlist-link">
+					<i class="far fa-heart top-header__wishlist-icon"></i>
+				</a>
+			</div>
+
+			<div class="top-header__mini-cart mini-cart">
+				<a href="#" class="mini-cart__link" data-toggle="fancybox" data-target=".modal-cart">
+					<i class="fas fa-shopping-cart mini-cart__icon"></i>
+					<span class="mini-cart__count">1</span>
+					<span class="mini-cart__total d-none d-xl-block">10 000 руб</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="top-header-mobile d-lg-none">
+	<div class="container">
+		<div class="top-header-mobile__inner">
+			<div class="top-header-mobile__logo logo">
+				<a href="/" class="top-header-mobile__logo-link logo__link">Logo</a>
+			</div>
+
+			<div class="top-header-mobile__callback">
+				<a href="#" class="btn btn-sm btn-ring btn-secondary top-header-mobile__callback-btn" data-toggle="fancybox" data-target=".modal-callback">
+					<i class="fas fa-phone-volume top-header-mobile__callback-icon"></i>
+				</a>
+			</div>
+
+			<div class="top-header-mobile__wishlist">
+				<a href="#" class="top-header-mobile__wishlist-link">
+					<i class="far fa-heart top-header-mobile__wishlist-icon"></i>
+				</a>
+			</div>
+
+			<div class="top-header-mobile__mini-cart mini-cart">
+				<a href="#" class="mini-cart__link top-header-mobile__mini-cart-link" data-toggle="fancybox" data-target=".modal-cart">
+					<i class="fas fa-shopping-cart mini-cart__icon top-header-mobile__mini-cart-icon"></i>
+					<span class="mini-cart__count top-header-mobile__mini-cart-count">1</span>
+				</a>
+			</div>
+
+			<div class="top-header-mobile__navbar-toggler">
+				<button class="top-header-mobile__navbar-toggler-button" type="button" data-toggle="collapse" data-target=".top-navbar__navbar-collapse">
+					<span class="top-header-mobile__navbar-toggler-icon"></span>
+					<span class="top-header-mobile__navbar-toggler-icon"></span>
+					<span class="top-header-mobile__navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<nav class="top-navbar navbar navbar-expand-lg">
+	<div class="container">
+		<div class="collapse navbar-collapse top-navbar__navbar-collapse">
+			<ul class="top-navbar__nav nav">
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="./">Главная</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="catalog.html">Каталог</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="#">Акции</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="manufacturers.html">Производители</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="about.html">О магазине</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="delivery.html">Оплата и доставка</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="return.html">Обмен и возврат</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="contacts.html">Контакты</a>
+				</li>
+				<li class="top-navbar__nav-item nav-item">
+					<a class="top-navbar__nav-link nav-link" href="reviews.html">Отзывы</a>
+				</li>
+				<li class="d-lg-none">
+					<div class="top-navbar__search-form search-form">
+						<form action="#" class="search-form__form">
+							<div class="form-group search-form__form-group">
+								<input type="text" class="form-control form-control-lg search-form__form-control" placeholder="Поиск">
+							</div>
+							<button type="submit" class="btn btn-lg search-form__btn"><i class="fas fa-search"></i></button>
+						</form>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+<main class="page">
+	<div class="container">
+		<nav>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="/">Главная</a></li>
+				<li class="breadcrumb-item active">О магазине</li>
+			</ol>
+		</nav>
+
+		<div class="page__inner">
+			<h2 class="page__heading h1">О магазине</h2>
+
+			<div class="clearfix">
+				<img class="float-md-left mb-4 mr-4" src="img/articles/about-1.jpg" alt="">
+				<p class="font-size-md">Компания «Эльдорадо» — российская сеть магазинов бытовой техники для дома. География присутствия компании охватывает более 200 городов и насчитывает более 600 магазинов в разных регионах РФ. Наряду с этим  активно развивает транснациональный франчайзинг в ряде стран: Киргизия, Молдова, Армения, Казахстан. «LOGO» – пятикратный лауреат премии «Права потребителей и качество обслуживания», трехкратный обладатель премии «Марка №1 в России» (2012, 2014, 2016), а также победитель премий «Компания года 2012», «HR-бренд 2013» и двукратный обладатель премии «Лучшие социальные проекты России» (2013, 2015).</p>
+			</div>
+			<p class="font-size-md">В 2015 году компания «LOGO» была удостоена ряда отраслевых наград, таких как EMEA Channel Academy: «Ритейлер года в регионе РФ & СНГ»; премии в номинации «Лучшие цены», организованной экспертным проектом Hi-Tech.Mail.Ru, а также Online Retail Russia Awards в номинации «Лучший интернет-магазин» (2015, 2016), обладатель премии Russian Retail Awards 2016, двукратный обладатель премии EMEA Channel Academy: «Ритейлер года в регионе РФ & СНГ» (2015, 2016), а также обладатель приза зрительских симпатий конкурса АКМР «Лучшее корпоративное видео 2016».</p>
+		</div>
+
+		<div class="mb-5">
+			<h3 class="h1 feature-section__heading">Почему выбирают нас</h3>
+
+			<div class="row row-eqh justify-content-center">
+				<div class="col-md-6">
+					<div class="adv-item">
+						<div class="adv-item__media">
+							<img class="adv-item__media-icon" src="img/icons/benefits-icon-1.png" alt="">
+							<span class="adv-item__media-caption">Быстрая доставка</span>
+						</div>
+						
+						<div class="adv-item__body">
+							<p>Мы всегда думаем о вас. Для нас важно, чтобы вы получили всё вовремя и куда нужно</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="adv-item">
+						<div class="adv-item__media">
+							<img class="adv-item__media-icon" src="img/icons/benefits-icon-2.png" alt="">
+							<span class="adv-item__media-caption">Оплата при получении</span>
+						</div>
+						
+						<div class="adv-item__body">
+							<p>Никаких рисков. Мы не берём предоплаты, вы оплачиваете только при получении</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="adv-item">
+						<div class="adv-item__media">
+							<img class="adv-item__media-icon" src="img/icons/benefits-icon-3.png" alt="">
+							<span class="adv-item__media-caption">Помощь при выборе</span>
+						</div>
+						
+						<div class="adv-item__body">
+							<p>Наши консультанты помогут подобрать и нужный для вас воздухоочиститель</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="adv-item">
+						<div class="adv-item__media">
+							<img class="adv-item__media-icon" src="img/icons/benefits-icon-4.png" alt="">
+							<span class="adv-item__media-caption">Поддержка 24/7</span>
+						</div>
+						
+						<div class="adv-item__body">
+							<p>Мы всегда рядом, готовы помочь и подсказать</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="adv-item">
+						<div class="adv-item__media">
+							<img class="adv-item__media-icon" src="img/icons/benefits-icon-5.png" alt="">
+							<span class="adv-item__media-caption">Всегда низкая цена</span>
+						</div>
+						
+						<div class="adv-item__body">
+							<p>Мы работаем на прямую с поставщиками, потому у нас цены ниже рыночной</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+<footer class="footer">
+	<div class="footer-benefits d-none d-md-block">
+	<div class="container container-xxl">
+		<div class="footer-benefits__inner">
+			<div class="footer-benefits__item">
+				<img src="img/benefits/delivery.png" alt="" class="footer-benefits__item-img">
+				<span class="footer-benefits__item-caption">Быстрая <br>доставка</span>
+			</div>
+			<div class="footer-benefits__item">
+				<img src="img/benefits/payment.png" alt="" class="footer-benefits__item-img">
+				<span class="footer-benefits__item-caption">Оплата <br>при получении</span>
+			</div>
+			<div class="footer-benefits__item">
+				<img src="img/benefits/help.png" alt="" class="footer-benefits__item-img">
+				<span class="footer-benefits__item-caption">Помощь <br>в выборе</span>
+			</div>
+			<div class="footer-benefits__item">
+				<img src="img/benefits/support.png" alt="" class="footer-benefits__item-img">
+				<span class="footer-benefits__item-caption">Поддержка <br>клиентов 24\7</span>
+			</div>
+			<div class="footer-benefits__item">
+				<img src="img/benefits/sale.png" alt="" class="footer-benefits__item-img">
+				<span class="footer-benefits__item-caption">Всегда <br>низкая цена</span>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="footer-main">
+	<div class="container container-xxl">
+		<div class="row">
+			<div class="col-md-3 col-lg-3 col-xl-2">
+				<div class="footer-main__logo logo">
+					<a href="/" class="footer-main__logo-link logo__link">Logo</a>
+				</div>
+
+				<div class="footer-main__copyright">
+					Copyright<br>&copy; 2020 Shoplogo
+				</div>
+			</div> <!-- end col -->
+
+			<div class="col-lg-3 col-xl-3 d-none d-lg-block">
+				<div class="footer-main__navigation">
+					<p class="footer-main__navigation-title text-center">Навигация</p>
+					<div class="row">
+						<div class="col-xl-6">
+							<ul class="footer-nav nav">
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="/">
+										<span class="footer-nav__link-text">Главная</span>
+									</a>
+								</li>
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="catalog.html">
+										<span class="footer-nav__link-text">Каталог</span>
+									</a>
+								</li>
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="manufacturers.html">
+										<span class="footer-nav__link-text">Производители</span>
+									</a>
+								</li>
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="about.html">
+										<span class="footer-nav__link-text">О магазине</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-xl-6">
+							<ul class="footer-nav nav">
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="delivery.html">
+										<span class="footer-nav__link-text">Оплата и доставка</span>
+									</a>
+								</li>
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="return.html">
+										<span class="footer-nav__link-text">Обмен и возврат</span>
+									</a>
+								</li>
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="contacts.html">
+										<span class="footer-nav__link-text">Контакты</span>
+									</a>
+								</li>
+								<li class="footer-nav__item">
+									<a class="footer-nav__link" href="reviews.html">
+										<span class="footer-nav__link-text">Отзывы</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end col -->
+
+			<div class="col-md-6 col-lg-3 col-xl-3">
+				<div class="footer-main__info">
+					<div class="row">
+						<div class="col-md-6 col-lg-12 col-xl-6">
+							<div class="footer-info">
+								<div class="footer-info__title">
+									<i class="footer-info__title-icon fas fa-map-marker-alt"></i> Адрес
+								</div>
+								<div class="footer-info__caption">
+									Кооперативная ул., 19<br>Москва, Россия
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-12 col-xl-6">
+							<div class="footer-info">
+								<div class="footer-info__title">
+									<i class="footer-info__title-icon far fa-clock"></i> График работы
+								</div>
+								<div class="footer-info__caption">
+									Пн - Пт <b>9:00-18:00</b><br>
+									Сб - Вс <b>9:00-17:00</b>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6">
+							<div class="footer-info">
+								<div class="footer-info__title">
+									<i class="footer-info__title-icon fas fa-envelope"></i> E-mail
+								</div>
+								<div class="footer-info__caption">
+									<a href="mailto:shopsupport@mail.com">shopsupport@mail.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- end col -->
+
+			<div class="col-md-3 col-lg-3 col-xl-2 d-none d-md-block">
+				<div class="footer-main__nav-info">
+					<ul class="footer-nav nav">
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="#">
+								<i class="footer-nav__link-icon fas fa-percent"></i>
+								<span class="footer-nav__link-text">Акции</span>
+							</a>
+						</li>
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="#">
+								<i class="footer-nav__link-icon far fa-life-ring"></i>
+								<span class="footer-nav__link-text">Помощь</span>
+							</a>
+						</li>
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="#">
+								<i class="footer-nav__link-icon fas fa-box-open"></i>
+								<span class="footer-nav__link-text">Что с моим заказом?</span>
+							</a>
+						</li>
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="#">
+								<i class="footer-nav__link-icon fas fa-star"></i>
+								<span class="footer-nav__link-text">Отзывы о магазине</span>
+							</a>
+						</li>
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="#">
+								<i class="footer-nav__link-icon fas fa-question"></i>
+								<span class="footer-nav__link-text">Как сделать заказ?</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- end col -->
+
+			<div class="col-xl-2 d-none d-xl-block">
+				<div class="footer-main__phone-info">
+					<div class="footer-main__phone">
+						<span class="footer-main__phone-notice">Бесплатный номер по России</span>
+						<a href="#" class="footer-main__phone-link">
+							<i class="fas fa-phone-alt footer-main__phone-link-icon" aria-hidden="true"></i>
+							<span class="footer-main__phone-link-text">+8 (880) 888-88-88</span>
+						</a>
+					</div>
+
+					<div class="footer-main__callback">
+						<a href="#" class="btn btn-lg btn-ring btn-secondary footer-main__callback-btn" data-toggle="fancybox" data-target=".modal-callback">Перезвоните мне</a>
+					</div>
+				</div>
+			</div> <!-- end col -->
+		</div>
+	</div>
+</div>
+	<div class="footer-bar">
+	<div class="container container-xxl">
+		<div class="footer-bar__inner">
+			<div class="footer-bar__payment">
+				<span class="footer-bar__payment-caption">Принимаем к оплате</span>
+				
+				<ul class="footer-bar__payment-list">
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/yd.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/wm.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/sber.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/visa.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/mc.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/qiwi.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/bee.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/green.png" alt="" class="footer-bar__payment-image">
+					</li>
+					<li class="footer-bar__payment-item">
+						<img src="img/payment/wallet.png" alt="" class="footer-bar__payment-image">
+					</li>
+				</ul>
+			</div>
+
+			<a href="#" class="footer-bar__go-to" data-toggle="go-to" data-target=".header">
+				<i class="fas fa-angle-up"></i>
+			</a>
+		</div>
+	</div>
+</div>
+</footer>
+
+<div class="modal modal-thanks">
+	<div class="modal__body">
+		<i class="far fa-check-circle modal__icon"></i>
+		<p class="h3 modal__heading">Спасибо за заявку</p>
+		<div class="modal__message">
+			<p>Мы свяжемся с вами в ближайшее время!</p>
+		</div>
+		<a href="#" class="btn btn-secondary btn-lg btn-fixed" data-fancybox-close>Продолжить</a>
+	</div>
+</div>
+<div class="modal modal-thanks-review">
+	<div class="modal__body">
+		<i class="far fa-check-circle modal__icon"></i>
+		<p class="h3 modal__heading">Спасибо за отзыв</p>
+		<div class="modal__message">
+			<p>Ваш отзыв, появится на сайте в ближайшее время</p>
+		</div>
+		<a href="#" class="btn btn-secondary btn-lg btn-fixed" data-fancybox-close>Продолжить</a>
+	</div>
+</div>
+<div class="modal modal-add-to-cart">
+	<div class="modal__body">
+		<i class="fas fa-shopping-cart modal__icon"></i>
+		<p class="h3 modal__heading">Товар добавлен в корзину</p>
+		<div class="modal__message">
+			<p>Для оформление заказа, перейдите в раздел “Корзина”</p>
+		</div>
+		<a href="#" class="btn btn-secondary btn-lg btn-fixed" data-fancybox-close>Корзина</a>
+	</div>
+</div>
+<div class="modal modal-callback">
+	<div class="modal__body">
+		<i class="fas fa-phone-volume modal__icon"></i>
+		<p class="h3 modal__heading">Заполните форму</p>
+		<div class="modal__message">
+			<p>Обратный звонок</p>
+		</div>
+		<form action="#">
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="text" class="form-group-icon__form-control form-control form-control-lg" placeholder="Имя">
+					<i class="fas fa-user"></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="tel" class="form-group-icon__form-control form-control form-control-lg" placeholder="Телефон">
+					<i class="fas fa-phone-alt"></i>
+				</div>
+			</div>
+			<div class="form-group-submit">
+				<button class="btn btn-secondary btn-lg btn-block">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="modal modal-help">
+	<div class="modal__body">
+		<i class="far fa-life-ring modal__icon"></i>
+		<p class="h3 modal__heading">Нужна помощь?</p>
+		<div class="modal__message">
+			<p>Мы свяжемся с вами в ближайшее время!</p>
+		</div>
+		<form action="#">
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="text" class="form-group-icon__form-control form-control form-control-lg" placeholder="Имя">
+					<i class="fas fa-user"></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="tel" class="form-group-icon__form-control form-control form-control-lg" placeholder="Телефон">
+					<i class="fas fa-phone-alt"></i>
+				</div>
+			</div>
+			<div class="form-group-submit">
+				<button class="btn btn-secondary btn-lg btn-block">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="modal modal-order-info">
+	<div class="modal__body">
+		<i class="fas fa-box-open modal__icon"></i>
+		<p class="h3 modal__heading">Что с моим заказом?</p>
+		<div class="modal__message">
+			<p>Заполните форму, мы свяжемся с вами!</p>
+		</div>
+		<form action="#">
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="text" class="form-group-icon__form-control form-control form-control-lg" placeholder="Имя">
+					<i class="fas fa-user"></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="tel" class="form-group-icon__form-control form-control form-control-lg" placeholder="Телефон">
+					<i class="fas fa-phone-alt"></i>
+				</div>
+			</div>
+			<div class="form-group-submit">
+				<button class="btn btn-secondary btn-lg btn-block">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="modal modal-review">
+	<div class="modal__body">
+		<p class="h3 modal__heading">Напишите отзыв</p>
+		<form action="#">
+			<div class="modal-review__avatar">
+				<div class="modal-review__avatar-caption">Ваш аватар</div>
+				<img src="img/reviews/review-avatar-placeholder.png" alt="" class="modal-review__avatar-img">
+				<div class="form-group">
+					<div class="modal-review__avatar-file">
+						<input type="file" class="modal-review__avatar-file-input sr-only" id="input-review-avatar">
+						<label class="modal-review__avatar-file-label" for="input-review-avatar">Загрузить <i class="fas fa-download"></i></label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="modal-review__rating">
+					<span class="modal-review__rating-caption">Ваша оценка</span>
+					<div class="modal-review__rating--wrapper rating">
+						<div class="rating__stars modal-review__rating-stars">
+							<a href="#" class="rating__stars-item"><i class="fas fa-star"></i></a>
+							<a href="#" class="rating__stars-item"><i class="fas fa-star"></i></a>
+							<a href="#" class="rating__stars-item"><i class="fas fa-star"></i></a>
+							<a href="#" class="rating__stars-item"><i class="fas fa-star"></i></a>
+							<a href="#" class="rating__stars-item"><i class="fas fa-star"></i></a>
+						</div>
+						<input type="hidden">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="text" class="form-group-icon__form-control form-control form-control-lg" placeholder="Имя">
+					<i class="fas fa-user"></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-group-icon">
+					<textarea class="form-group-icon__form-control form-control form-control-lg" placeholder="Комментарий" rows="8"></textarea>
+					<i class="fas fa-comment"></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="modal-review__file">
+					<input type="file" class="modal-review__file-input sr-only" id="input-review-file">
+					<label class="modal-review__file-label btn btn-outline-secondary btn-lg btn-block" for="input-review-file">Прикрепить файл <i class="fas fa-paperclip"></i></label>
+				</div>
+			</div>
+			<div class="form-group-submit">
+				<button class="btn btn-secondary btn-lg btn-block">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="modal modal-boc">
+	<div class="modal__body">
+		<p class="h3 modal__heading">Заполните форму</p>
+		<div class="modal__message">
+			<p>Покупка в один клик</p>
+		</div>
+		<form action="#">
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="text" class="form-group-icon__form-control form-control form-control-lg" placeholder="Имя">
+					<i class="fas fa-user"></i>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-group-icon">
+					<input type="tel" class="form-group-icon__form-control form-control form-control-lg" placeholder="Телефон">
+					<i class="fas fa-phone-alt"></i>
+				</div>
+			</div>
+			<div class="form-group-submit">
+				<button class="btn btn-secondary btn-lg btn-block">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="modal modal-cart">
+	<div class="modal__body">
+		<div class="modal-cart__body">
+			<div class="modal-cart__product">
+				<div class="modal-cart__product-image">
+					<img src="img/products/product-image-thumb-1.png" alt="" class="modal-cart__product-image-img">
+				</div>
+
+				<div class="modal-cart__product-body">
+					<p class="modal-cart__product-title">
+						<a class="modal-cart__product-title-link" href="product.html" target="_blank">Очиститель воздуха Вeurer LW 110</a>
+					</p>
+					<div class="modal-cart__product-footer">
+						<div class="modal-cart__product-price">
+							<span class="modal-cart__product-price-item modal-cart__product-price-item--old">30 000 руб</span>
+							<span class="modal-cart__product-price-item modal-cart__product-price-item--new">20 000 руб</span>
+						</div>
+
+						<div class="product-input-qty">
+							<button type="button" class="btn btn-sm btn-outline-secondary product-input-qty__btn">-</button>
+							<input type="text" class="form-control form-control-sm product-input-qty__input" value="1" readonly tabindex="-1">
+							<button type="button" class="btn btn-sm btn-outline-secondary product-input-qty__btn">+</button>
+						</div>
+
+						<div class="modal-cart__product-price-total">20 000 руб</div>
+					</div>
+				</div>
+
+				<button type="button" class="modal-cart__product-delete">
+					<i class="fas fa-times modal-cart__product-delete-icon"></i>
+				</button>
+			</div>
+
+			<div class="modal-cart__product">
+				<div class="modal-cart__product-image">
+					<img src="img/products/product-image-thumb-1.png" alt="" class="modal-cart__product-image-img">
+				</div>
+
+				<div class="modal-cart__product-body">
+					<p class="modal-cart__product-title">
+						<a class="modal-cart__product-title-link" href="product.html" target="_blank">Очиститель воздуха Вeurer LW 110</a>
+					</p>
+					<div class="modal-cart__product-footer">
+						<div class="modal-cart__product-price">
+							<span class="modal-cart__product-price-item modal-cart__product-price-item--old">30 000 руб</span>
+							<span class="modal-cart__product-price-item modal-cart__product-price-item--new">20 000 руб</span>
+						</div>
+
+						<div class="product-input-qty">
+							<button type="button" class="btn btn-sm btn-outline-secondary product-input-qty__btn">-</button>
+							<input type="text" class="form-control form-control-sm product-input-qty__input" value="1" readonly tabindex="-1">
+							<button type="button" class="btn btn-sm btn-outline-secondary product-input-qty__btn">+</button>
+						</div>
+
+						<div class="modal-cart__product-price-total">20 000 руб</div>
+					</div>
+				</div>
+
+				<button type="button" class="modal-cart__product-delete">
+					<i class="fas fa-times modal-cart__product-delete-icon"></i>
+				</button>
+			</div>
+
+			<div class="modal-cart__product">
+				<div class="modal-cart__product-image">
+					<img src="img/products/product-image-thumb-1.png" alt="" class="modal-cart__product-image-img">
+				</div>
+
+				<div class="modal-cart__product-body">
+					<p class="modal-cart__product-title">
+						<a class="modal-cart__product-title-link" href="product.html" target="_blank">Очиститель воздуха Вeurer LW 110</a>
+					</p>
+					<div class="modal-cart__product-footer">
+						<div class="modal-cart__product-price">
+							<span class="modal-cart__product-price-item modal-cart__product-price-item--old">30 000 руб</span>
+							<span class="modal-cart__product-price-item modal-cart__product-price-item--new">20 000 руб</span>
+						</div>
+
+						<div class="product-input-qty">
+							<button type="button" class="btn btn-sm btn-outline-secondary product-input-qty__btn">-</button>
+							<input type="text" class="form-control form-control-sm product-input-qty__input" value="1" readonly tabindex="-1">
+							<button type="button" class="btn btn-sm btn-outline-secondary product-input-qty__btn">+</button>
+						</div>
+
+						<div class="modal-cart__product-price-total">20 000 руб</div>
+					</div>
+				</div>
+
+				<button type="button" class="modal-cart__product-delete">
+					<i class="fas fa-times modal-cart__product-delete-icon"></i>
+				</button>
+			</div>
+		</div>
+
+		<div class="modal-cart__footer">
+			<table class="modal-cart__footer-table">
+				<tr class="modal-cart__footer-sum">
+					<td class="modal-cart__footer-sum-caption">Итоговая сумма</td>
+					<td class="modal-cart__footer-sum-value">30 000 руб</td>
+				</tr>
+				<tr class="modal-cart__footer-discount">
+					<td class="modal-cart__footer-discount-caption">Скидка</td>
+					<td class="modal-cart__footer-discount-value"><span>20 000 руб</span></td>
+				</tr>
+			</table>
+
+			<a href="checkout.html" class="btn btn-secondary btn-lg btn-block">Оформить заказ</a>
+		</div>
+	</div>
+</div>
+
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
